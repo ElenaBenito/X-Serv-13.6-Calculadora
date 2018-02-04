@@ -55,7 +55,7 @@ try:
 		except ValueError:
 			print("Por favor introduce números enteros")	
 		except ZeroDivisionError:
-			print ("No se puede divir entre 0")
+			print ("No se puede divir entre 0, por favor ponga otro número")
 	else:
 		print("Función no contemplada, opciones: sumar, restar, multiplicar y dividir")
 except IndexError:
